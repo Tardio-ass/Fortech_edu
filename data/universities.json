@@ -1,0 +1,54 @@
+[
+  {
+    "id": "aitu",
+    "name": "Astana IT University",
+    "short_name": "AITU",
+    "city": "Астана",
+    "ownership": "частный",
+    "website": "https://astanait.edu.kz",
+    "has_dormitory": true,
+    "has_military_department": false,
+    "programs": [
+      {
+        "code": "B058",
+        "name": "Информационная безопасность",
+        "field": "IT",
+        "degree": "бакалавр",
+        "duration_years": 3,
+        "languages": ["русский", "английский"],
+        "tuition_per_year_kzt": 0,
+        "grant_available": true,
+        "min_score_grant": 0,
+        "min_score_paid": 0,
+        "application_deadline": "2027-07-20"
+      }
+    ],
+    "_note": "ПРИМЕР СТРУКТУРЫ. Нули = данные ещё не собраны. Заполняет research-человек."
+  },
+  {
+    "id": "example-2",
+    "name": "Название университета",
+    "short_name": "СОКР",
+    "city": "Город",
+    "ownership": "государственный",
+    "website": "https://example.kz",
+    "has_dormitory": true,
+    "has_military_department": true,
+    "programs": [
+      {
+        "code": "B0XX",
+        "name": "Название программы",
+        "field": "IT",
+        "degree": "бакалавр",
+        "duration_years": 4,
+        "languages": ["казахский", "русский"],
+        "tuition_per_year_kzt": 0,
+        "grant_available": false,
+        "min_score_grant": 0,
+        "min_score_paid": 0,
+        "application_deadline": "2027-07-20"
+      }
+    ],
+    "_note": "ПРИМЕР СТРУКТУРЫ — удалить, когда пойдут реальные данные."
+  }
+]
